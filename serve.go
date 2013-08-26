@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"path/filepath"
 	"log"
 	"net/http"
+	"path/filepath"
 	"strconv"
 )
 
@@ -17,6 +17,5 @@ func main() {
 	fullPath = filepath.Clean(fullPath)
 	log.Println("Serving", fullPath, "on", *port)
 
-	panic(http.ListenAndServe(":" + strconv.Itoa(*port), http.FileServer(http.Dir(fullPath))))
+	panic(http.ListenAndServe(":"+strconv.Itoa(*port), http.FileServer(http.Dir(fullPath))))
 }
-
