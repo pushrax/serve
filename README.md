@@ -5,7 +5,7 @@ Defaults to the current working directory and port 8080.
 
 ## Installation
 
-[Install Go], and `go get github.com/pushrax/serve`. Ensure your Go `bin` folder is in your path.
+[Install Go], and `go get github.com/pushrax/serve`. Ensure your Go bin folder is in your $PATH.
 
 [Install Go]: http://golang.org/doc/install
 
