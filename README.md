@@ -11,6 +11,8 @@ Defaults to the current working directory and port 8080.
 
 ## Usage
 
+Just run `serve` somewhere and it'll start serving.
+
 ```
 $ serve -help
 Usage of serve:
